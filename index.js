@@ -72,4 +72,4 @@ cron.schedule("* * * * *", () => {
   });
 });
 
-app.listen(1313);
+app.listen(process.env.PORT || 1313);
